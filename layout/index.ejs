@@ -1,5 +1,6 @@
 <div class="posts">
     <% page.posts.each(function (post) { %>
+        <% if (!post.hidden) { %>
         <article class="post-abstract">
             <div class="post-title">
                 <h2><a class="post-title-link" href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
@@ -28,6 +29,7 @@
                 </div>
             </div>
         </article>
+        <% } %>
     <% }) %>
 </div>
 <%- partial('_partial/paginator') %>
