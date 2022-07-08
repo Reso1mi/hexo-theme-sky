@@ -31,6 +31,10 @@ img {
   box-sizing: border-box;
 }
 
+ol, ul, dd, dl {
+  padding-left: 2rem;
+}
+
 @include max-screen($toc-max-screen-width) {
   .post-toc-aside {
     display: none;

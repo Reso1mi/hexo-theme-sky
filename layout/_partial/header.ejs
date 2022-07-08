@@ -27,6 +27,13 @@
                 <%- __('Menu.About')%>
             </a>
             <% } %>
+
+
+            <% if (theme.menu.Selfhosted) { %>
+                <a href="<%= theme.menu.Selfhosted %>" class="header-nav-link">
+                    <%- __('Menu.Selfhosted')%>
+                </a>
+                <% } %>
         </nav>
     </div>
 </header>

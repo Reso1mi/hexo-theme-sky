@@ -6,6 +6,10 @@
 - [x] 自动摘要auto_excerpt_len
 - [x] 列表锁进
 - [x] social_config修改为theme
+- [x] 文章隐藏
+- [ ] 文章置顶
+- [ ] 添加分类 & Tag优化
+- [ ] nav重写（目前写死）
 - [ ] 夜间模式
 
 依赖项推荐使用
