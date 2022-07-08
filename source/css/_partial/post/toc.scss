@@ -7,6 +7,9 @@
   box-sizing: border-box;
   position: absolute;
   margin-left: $toc-offset-left;
+  max-height: calc(#{"100vh - 150px"});
+  overflow-y: auto;
+  overflow-x: auto;
   .post-toc-title {
     display: inline-block;
     border-top: $toc-border-top;
