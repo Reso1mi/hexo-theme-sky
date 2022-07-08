@@ -1,0 +1,10 @@
+.disqus-comments {
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    width: $main-content-width - 50;
+    padding: 0 15px;
+    @media (max-width: $main-content-width) {
+      display: none!important;
+    }
+  }

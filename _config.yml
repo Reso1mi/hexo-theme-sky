@@ -12,3 +12,12 @@ since: 2017
 
 github_username: imlgw
 auto_excerpt_len: 150
+
+# comment extend, support gialk
+comment_extend:
+    gitalk:
+        enable: false
+        clientID: # 不安全，不建议使用
+        clientSecret: # 
+    disqus:
+        shortname: imlgw
