@@ -1,4 +1,19 @@
 [线上地址](https://ijinxin.github.io/)
+
+## 对原主题的改动
+
+- [x] 文章无分类和标签构建报错
+- [x] 自动摘要auto_excerpt_len
+- [x] 列表锁进
+- [x] social_config修改为theme
+- [ ] 夜间模式
+
+依赖项推荐使用
+```
+npm install hexo-renderer-scss-next --save
+```
+
+--- 
 ## 功能简介
 hexo-theme-sky 是一款简洁轻量的 hexo 博客主题，主要包含以下功能：
 - 语言切换，目前支持中文和英文

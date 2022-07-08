@@ -17,15 +17,15 @@
             <div class="post-content">
                 <% if (post.excerpt ) {%>
                     <%- post.excerpt %>
-                    <div class="read-more">
-                        <a href="<%- url_for(post.path)%>" class="read-more-link">
-                            <%- __('Post.readMore')%>
-                            <i class="iconfont icon-readmore"></i>
-                        </a>
-                    </div>
                 <% } else { %>
-                    <%- post.content %>
+                    <%- strip_html(post.content).substring(0,theme.auto_excerpt_len) %>
                 <% } %>
+                <div class="read-more">
+                    <a href="<%- url_for(post.path)%>" class="read-more-link">
+                        <%- __('Post.readMore')%>
+                        <i class="iconfont icon-readmore"></i>
+                    </a>
+                </div>
             </div>
         </article>
     <% }) %>

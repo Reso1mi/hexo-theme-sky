@@ -2,5 +2,12 @@
 menu:
   Home: /
   Archives: /archives
+  Categories: /categories
   Tags: /tags
-  # About: /about
+  About: /about
+
+author: Resolmi
+since: 2017
+
+github_username: imlgw
+auto_excerpt_len: 150
