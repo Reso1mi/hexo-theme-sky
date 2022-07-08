@@ -1,0 +1,18 @@
+.category-list {
+    list-style: upper-alpha;
+    ol,
+    ul {
+      list-style: lower-alpha;
+      padding-left: 1rem;
+    }
+    .category-list-link {
+      color: $black !important;
+      &:hover {
+        color: $theme-color-base;
+      }
+    }
+    .category-list-count {
+      padding-left: 1rem;
+      color: #2196F3;
+    }
+  }

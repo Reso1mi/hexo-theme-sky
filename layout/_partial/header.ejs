@@ -21,6 +21,12 @@
                 <%- __('Menu.Tags')%>
             </a>
             <% } %>
+           
+            <% if (theme.menu.Categories) { %>
+                <a href="<%= theme.menu.Categories%>" class="header-nav-link">
+                    <%- __('Menu.Categories')%>
+                </a>
+            <% } %>
 
             <% if (theme.menu.About) { %>
             <a href="<%= theme.menu.About %>" class="header-nav-link">

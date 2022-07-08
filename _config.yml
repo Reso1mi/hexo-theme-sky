@@ -3,7 +3,7 @@ menu:
   Home: /
   Archives: /archives
   Categories: /categories
-  Tags: /tags
+  # Tags: /tags
   About: /about
   Selfhosted: /selfhosted
 
