@@ -1,8 +1,36 @@
+<%
+var pageTitle = page.title || '';
+if (is_archive()) pageTitle = 'archives';
+if (is_tag()) pageTitle = 'tag: ' + page.tag;
+if (is_category()) pageTitle = 'category: ' + page.category;
+if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;
+if (is_year()) pageTitle += ': ' + page.year;
+pageTitle += ' [ ' + config.title + ' ]';
+if (is_home()) pageTitle+= config.subtitle;
+%>
+
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-    <title><%= config.title %></title>
+    
+    <% if (page.tags && page.tags.length) { %>
+        <meta name="keywords" content="<% page.tags.forEach(function(tag) { %><%= tag.name %>,<% }); %>" />
+    <% } else { %>
+        <meta name="keywords" content="<%= config.keywords %>" />
+    <% } %>
+
+    <% if (config.description) { %>
+        <meta name="description" content="<%= config.description %>" />
+    <% } else {  %>
+        <meta name="description" content="<%= page.description || page.title || (config.title + ',' + config.subtitle) %>" />
+    <% } %>
+
+    <% if(theme.favicon) {%>
+        <link rel="icon" type="image/x-icon" href="<%=theme.favicon%>">
+    <% } %>
+
+    <title><%=pageTitle%></title>
+
     <%- css('css/style.css') %>
-    <%- css('css/gitment.css')%>
     <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_859455_eaq7v6w8ktj.css">
 </head>

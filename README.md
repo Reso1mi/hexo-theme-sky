@@ -10,7 +10,9 @@
 - [x] 添加分类页（基本能用）
 - [x] 文章置顶 + 置顶标签 (hexo-generator-index)
 - [x] 长目录滑动条
-- [x] disqus评论
+- [x] disqus评论 & 去除gitment
+- [x] 文章标题 -> 网页标题
+- [x] 网页favicon自定义
 - [ ] 搜索页
 - [ ] 添加Tag页
 - [ ] nav重写（目前写死）
