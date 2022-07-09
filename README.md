@@ -1,15 +1,19 @@
-[线上地址](https://ijinxin.github.io/)
+博客效果预览：[imlgw.top](https://imlgw.top/)
+
+fork from https://github.com/iJinxin/hexo-theme-sky
+
+不会前端css，一些改动比较激进，所以unfork后自己维护了，感谢[@iJinxin](https://github.com/iJinxin)的贡献
 
 ## 对原主题的改动
 
 - [x] 文章无分类和标签构建报错
 - [x] 自动摘要auto_excerpt_len
-- [x] 列表锁进
-- [x] social_config修改为theme
+- [x] 列表缩进
+- [x] social_config修改为theme级别
 - [x] 文章隐藏（当页不展示）
 - [x] 添加分类页（基本能用）
 - [x] 文章置顶 + 置顶标签 (hexo-generator-index)
-- [x] 长目录滑动条
+- [x] 长目录加滑动条
 - [x] disqus评论 & 去除gitment
 - [x] 文章标题 -> 网页标题
 - [x] 网页favicon自定义
@@ -25,6 +29,9 @@ npm install hexo-renderer-scss-next --save
 ```
 
 --- 
+
+[线上地址](https://ijinxin.github.io/)
+
 ## 功能简介
 hexo-theme-sky 是一款简洁轻量的 hexo 博客主题，主要包含以下功能：
 - 语言切换，目前支持中文和英文
