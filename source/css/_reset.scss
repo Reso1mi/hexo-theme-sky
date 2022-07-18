@@ -57,3 +57,8 @@ ol, ul, dd, dl {
     font-size: $size;
   }
 }
+
+
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
