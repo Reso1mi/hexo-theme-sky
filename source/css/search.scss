@@ -1,0 +1,27 @@
+.search-content {
+    .pure-input {
+      border-radius: 2px !important;
+      &:focus {
+        border-color: #2196F3 !important;
+      }
+    }
+    .search-result {
+      color: #999;
+    }
+  }
+  
+  .search-result-list {
+    margin-top: 10px;
+    a.search-result-title {
+      color: #202020;
+      font-weight: normal;
+      font-size: 1.2rem;
+      &:hover {
+        color: #2196F3;
+      }
+    }
+    .search-keyword {
+      color: #FF5722;
+      font-weight: bold;
+    }
+  }

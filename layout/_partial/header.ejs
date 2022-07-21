@@ -39,7 +39,13 @@
                 <a href="<%= theme.menu.Selfhosted %>" class="header-nav-link">
                     <%- __('Menu.Selfhosted')%>
                 </a>
-                <% } %>
+            <% } %>
+
+            <% if (theme.menu.Search) { %>
+                <a href="<%= theme.menu.Search %>" class="header-nav-link">
+                    <%- __('Menu.Search')%>
+                </a>
+            <% } %>
         </nav>
     </div>
 </header>

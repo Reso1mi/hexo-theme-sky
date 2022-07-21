@@ -17,11 +17,12 @@ fork from https://github.com/iJinxin/hexo-theme-sky
 - [x] disqus评论 & 去除gitment
 - [x] 文章标题 -> 网页标题
 - [x] 网页favicon自定义
-- [ ] 搜索页
+- [x] 搜索页（hexo-generator-search）
 - [ ] 添加Tag页
 - [ ] nav重写（目前写死）
 - [ ] 分页优化
 - [ ] 夜间模式
+- [ ] 代码重构
 
 依赖项推荐使用
 ```
