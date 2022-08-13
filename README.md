@@ -23,6 +23,7 @@ fork from https://github.com/iJinxin/hexo-theme-sky
 - [ ] 分页优化
 - [ ] 夜间模式
 - [ ] 代码重构
+- [ ] 自动拉取外部文章
 
 依赖项推荐使用
 ```
